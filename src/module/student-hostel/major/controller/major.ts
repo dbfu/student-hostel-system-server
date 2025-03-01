@@ -52,11 +52,8 @@ export class MajorController {
     return await this.majorService.edit(data.toEntity());
   }
 
-  @Del('/', { description: '删除专业' })
-  async remove(
-    @Param('id')
-    id: string
-  ) {
+  @Del('/:id', { description: '删除专业' })
+  async remove(@Param('id') id: string) {
     AssertUtils.notEmpty(id, 'id不能为空');
     return await this.majorService.removeById(id);
   }

@@ -208,14 +208,6 @@ CREATE TABLE `sh_repair` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_bin;
 
--- ----------------------------
--- Records of sh_repair
--- ----------------------------
-BEGIN;
-INSERT INTO `sh_repair` (`id`, `createDate`, `updateDate`, `hostelId`, `repairId`, `repairRemark`, `status`) VALUES (222321233096605696, '2025-02-24 11:45:12.502051', '2025-02-24 11:45:30.000000', '222318973922836480', '222321004628672512', '空调坏了', 1);
-INSERT INTO `sh_repair` (`id`, `createDate`, `updateDate`, `hostelId`, `repairId`, `repairRemark`, `status`) VALUES (223829206331555840, '2025-02-28 15:37:21.336345', '2025-02-28 15:37:21.336345', '222318973922836480', '222325998123745280', '电灯坏了', 0);
-INSERT INTO `sh_repair` (`id`, `createDate`, `updateDate`, `hostelId`, `repairId`, `repairRemark`, `status`) VALUES (223829645995278336, '2025-02-28 15:39:06.161095', '2025-02-28 15:39:06.161095', '222318973922836480', '222325998123745280', '空调坏了', 0);
-COMMIT;
 
 -- ----------------------------
 -- Table structure for sh_student
