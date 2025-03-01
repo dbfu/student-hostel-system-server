@@ -13,7 +13,7 @@ export default (appInfo: MidwayAppInfo) => {
   return {
     keys: '1684629293601_5943',
     // 邮件中的系统名称
-    title: 'fluxy-admin',
+    title: 'student-hostel-system',
     koa: {
       port: 7001,
       globalPrefix: '/api',
@@ -127,6 +127,7 @@ export default (appInfo: MidwayAppInfo) => {
           port: env.REDIS_PORT,
           host: env.REDIS_HOST,
           password: env.REDIS_PASSWORD || '',
+          db: 4,
         },
       },
     },

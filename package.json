@@ -1,5 +1,5 @@
 {
-  "name": "fluxy-admin-server",
+  "name": "student-hostel-system",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -46,7 +46,8 @@
     "ts-node": "^10.9.1",
     "typeorm": "^0.3.17",
     "typescript": "~4.8.4",
-    "useragent": "^2.3.0"
+    "useragent": "^2.3.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@midwayjs/cli": "^2.1.1",
